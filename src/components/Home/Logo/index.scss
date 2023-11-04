@@ -1,0 +1,19 @@
+.logo-container {
+   z-index: 0;
+    width: 200px;
+    height: 200px;
+    transform: rotateZ(30deg) !important;
+    position: absolute;
+    top: 10px;
+    right: 25%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+  
+}  
+
+@media screen and (min-width: 420px) and (max-width: 1250px){
+    .logo-container {
+        display: none;
+    }
+}
